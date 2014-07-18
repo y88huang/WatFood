@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69EC63A11978A5BD001E944E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EC63A01978A5BD001E944E /* Foundation.framework */; };
+		69EC63A31978A5BD001E944E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EC63A21978A5BD001E944E /* CoreGraphics.framework */; };
+		69EC63A51978A5BD001E944E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EC63A41978A5BD001E944E /* UIKit.framework */; };
+		69EC63AB1978A5BD001E944E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69EC63A91978A5BD001E944E /* InfoPlist.strings */; };
+		69EC63AD1978A5BD001E944E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EC63AC1978A5BD001E944E /* main.m */; };
+		69EC63B11978A5BD001E944E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EC63B01978A5BD001E944E /* AppDelegate.m */; };
+		69EC63B41978A5BD001E944E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC63B21978A5BD001E944E /* Main_iPhone.storyboard */; };
+		69EC63B71978A5BD001E944E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC63B51978A5BD001E944E /* Main_iPad.storyboard */; };
+		69EC63BA1978A5BD001E944E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EC63B91978A5BD001E944E /* ViewController.m */; };
+		69EC63BC1978A5BD001E944E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EC63BB1978A5BD001E944E /* Images.xcassets */; };
+		69EC63C31978A5BD001E944E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EC63C21978A5BD001E944E /* XCTest.framework */; };
+		69EC63C41978A5BD001E944E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EC63A01978A5BD001E944E /* Foundation.framework */; };
+		69EC63C51978A5BD001E944E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EC63A41978A5BD001E944E /* UIKit.framework */; };
+		69EC63CD1978A5BD001E944E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69EC63CB1978A5BD001E944E /* InfoPlist.strings */; };
+		69EC63CF1978A5BD001E944E /* WatFoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EC63CE1978A5BD001E944E /* WatFoodTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69EC63C61978A5BD001E944E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69EC63951978A5BD001E944E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69EC639C1978A5BD001E944E;
+			remoteInfo = WatFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69EC639D1978A5BD001E944E /* WatFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EC63A01978A5BD001E944E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69EC63A21978A5BD001E944E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69EC63A41978A5BD001E944E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69EC63A81978A5BD001E944E /* WatFood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WatFood-Info.plist"; sourceTree = "<group>"; };
+		69EC63AA1978A5BD001E944E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69EC63AC1978A5BD001E944E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69EC63AE1978A5BD001E944E /* WatFood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatFood-Prefix.pch"; sourceTree = "<group>"; };
+		69EC63AF1978A5BD001E944E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69EC63B01978A5BD001E944E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69EC63B31978A5BD001E944E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		69EC63B61978A5BD001E944E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		69EC63B81978A5BD001E944E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69EC63B91978A5BD001E944E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69EC63BB1978A5BD001E944E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69EC63C11978A5BD001E944E /* WatFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EC63C21978A5BD001E944E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		69EC63CA1978A5BD001E944E /* WatFoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WatFoodTests-Info.plist"; sourceTree = "<group>"; };
+		69EC63CC1978A5BD001E944E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69EC63CE1978A5BD001E944E /* WatFoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatFoodTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69EC639A1978A5BD001E944E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EC63A31978A5BD001E944E /* CoreGraphics.framework in Frameworks */,
+				69EC63A51978A5BD001E944E /* UIKit.framework in Frameworks */,
+				69EC63A11978A5BD001E944E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EC63BE1978A5BD001E944E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EC63C31978A5BD001E944E /* XCTest.framework in Frameworks */,
+				69EC63C51978A5BD001E944E /* UIKit.framework in Frameworks */,
+				69EC63C41978A5BD001E944E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69EC63941978A5BD001E944E = {
+			isa = PBXGroup;
+			children = (
+				69EC63A61978A5BD001E944E /* WatFood */,
+				69EC63C81978A5BD001E944E /* WatFoodTests */,
+				69EC639F1978A5BD001E944E /* Frameworks */,
+				69EC639E1978A5BD001E944E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69EC639E1978A5BD001E944E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69EC639D1978A5BD001E944E /* WatFood.app */,
+				69EC63C11978A5BD001E944E /* WatFoodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69EC639F1978A5BD001E944E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69EC63A01978A5BD001E944E /* Foundation.framework */,
+				69EC63A21978A5BD001E944E /* CoreGraphics.framework */,
+				69EC63A41978A5BD001E944E /* UIKit.framework */,
+				69EC63C21978A5BD001E944E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69EC63A61978A5BD001E944E /* WatFood */ = {
+			isa = PBXGroup;
+			children = (
+				69EC63AF1978A5BD001E944E /* AppDelegate.h */,
+				69EC63B01978A5BD001E944E /* AppDelegate.m */,
+				69EC63B21978A5BD001E944E /* Main_iPhone.storyboard */,
+				69EC63B51978A5BD001E944E /* Main_iPad.storyboard */,
+				69EC63B81978A5BD001E944E /* ViewController.h */,
+				69EC63B91978A5BD001E944E /* ViewController.m */,
+				69EC63BB1978A5BD001E944E /* Images.xcassets */,
+				69EC63A71978A5BD001E944E /* Supporting Files */,
+			);
+			path = WatFood;
+			sourceTree = "<group>";
+		};
+		69EC63A71978A5BD001E944E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69EC63A81978A5BD001E944E /* WatFood-Info.plist */,
+				69EC63A91978A5BD001E944E /* InfoPlist.strings */,
+				69EC63AC1978A5BD001E944E /* main.m */,
+				69EC63AE1978A5BD001E944E /* WatFood-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69EC63C81978A5BD001E944E /* WatFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				69EC63CE1978A5BD001E944E /* WatFoodTests.m */,
+				69EC63C91978A5BD001E944E /* Supporting Files */,
+			);
+			path = WatFoodTests;
+			sourceTree = "<group>";
+		};
+		69EC63C91978A5BD001E944E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69EC63CA1978A5BD001E944E /* WatFoodTests-Info.plist */,
+				69EC63CB1978A5BD001E944E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69EC639C1978A5BD001E944E /* WatFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69EC63D21978A5BD001E944E /* Build configuration list for PBXNativeTarget "WatFood" */;
+			buildPhases = (
+				69EC63991978A5BD001E944E /* Sources */,
+				69EC639A1978A5BD001E944E /* Frameworks */,
+				69EC639B1978A5BD001E944E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatFood;
+			productName = WatFood;
+			productReference = 69EC639D1978A5BD001E944E /* WatFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69EC63C01978A5BD001E944E /* WatFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69EC63D51978A5BD001E944E /* Build configuration list for PBXNativeTarget "WatFoodTests" */;
+			buildPhases = (
+				69EC63BD1978A5BD001E944E /* Sources */,
+				69EC63BE1978A5BD001E944E /* Frameworks */,
+				69EC63BF1978A5BD001E944E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69EC63C71978A5BD001E944E /* PBXTargetDependency */,
+			);
+			name = WatFoodTests;
+			productName = WatFoodTests;
+			productReference = 69EC63C11978A5BD001E944E /* WatFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69EC63951978A5BD001E944E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ken Huang";
+				TargetAttributes = {
+					69EC63C01978A5BD001E944E = {
+						TestTargetID = 69EC639C1978A5BD001E944E;
+					};
+				};
+			};
+			buildConfigurationList = 69EC63981978A5BD001E944E /* Build configuration list for PBXProject "WatFood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69EC63941978A5BD001E944E;
+			productRefGroup = 69EC639E1978A5BD001E944E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69EC639C1978A5BD001E944E /* WatFood */,
+				69EC63C01978A5BD001E944E /* WatFoodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69EC639B1978A5BD001E944E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EC63B71978A5BD001E944E /* Main_iPad.storyboard in Resources */,
+				69EC63BC1978A5BD001E944E /* Images.xcassets in Resources */,
+				69EC63B41978A5BD001E944E /* Main_iPhone.storyboard in Resources */,
+				69EC63AB1978A5BD001E944E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EC63BF1978A5BD001E944E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EC63CD1978A5BD001E944E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69EC63991978A5BD001E944E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EC63BA1978A5BD001E944E /* ViewController.m in Sources */,
+				69EC63B11978A5BD001E944E /* AppDelegate.m in Sources */,
+				69EC63AD1978A5BD001E944E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EC63BD1978A5BD001E944E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EC63CF1978A5BD001E944E /* WatFoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69EC63C71978A5BD001E944E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69EC639C1978A5BD001E944E /* WatFood */;
+			targetProxy = 69EC63C61978A5BD001E944E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69EC63A91978A5BD001E944E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69EC63AA1978A5BD001E944E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69EC63B21978A5BD001E944E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69EC63B31978A5BD001E944E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		69EC63B51978A5BD001E944E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69EC63B61978A5BD001E944E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		69EC63CB1978A5BD001E944E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69EC63CC1978A5BD001E944E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69EC63D01978A5BD001E944E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69EC63D11978A5BD001E944E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69EC63D31978A5BD001E944E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatFood/WatFood-Prefix.pch";
+				INFOPLIST_FILE = "WatFood/WatFood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69EC63D41978A5BD001E944E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatFood/WatFood-Prefix.pch";
+				INFOPLIST_FILE = "WatFood/WatFood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		69EC63D61978A5BD001E944E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WatFood.app/WatFood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatFood/WatFood-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatFoodTests/WatFoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		69EC63D71978A5BD001E944E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WatFood.app/WatFood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatFood/WatFood-Prefix.pch";
+				INFOPLIST_FILE = "WatFoodTests/WatFoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69EC63981978A5BD001E944E /* Build configuration list for PBXProject "WatFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EC63D01978A5BD001E944E /* Debug */,
+				69EC63D11978A5BD001E944E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69EC63D21978A5BD001E944E /* Build configuration list for PBXNativeTarget "WatFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EC63D31978A5BD001E944E /* Debug */,
+				69EC63D41978A5BD001E944E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69EC63D51978A5BD001E944E /* Build configuration list for PBXNativeTarget "WatFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EC63D61978A5BD001E944E /* Debug */,
+				69EC63D71978A5BD001E944E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69EC63951978A5BD001E944E /* Project object */;
+}
